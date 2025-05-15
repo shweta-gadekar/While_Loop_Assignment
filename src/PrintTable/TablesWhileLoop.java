@@ -6,6 +6,7 @@ public class TablesWhileLoop {
 
 	public static void main(String[] args) {
 		int num;
+		//1. Table using  while loop:
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number for while loop =");
 		num=sc.nextInt();
@@ -14,7 +15,7 @@ public class TablesWhileLoop {
 			System.out.print(i*num+" ");
 			i++;
 		}
-		// Table using do while loop:
+		// 2.Table using do while loop:
 		int k=1;
 		System.out.println("\nEnter the number for do-while loop: =");
 		num=sc.nextInt();
