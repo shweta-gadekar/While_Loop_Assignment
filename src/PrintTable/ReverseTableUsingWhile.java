@@ -10,7 +10,7 @@ public class ReverseTableUsingWhile {
 			System.out.print("Enter a number to obtain its reverse table :");
 			int num=sc.nextInt();
 			
-			while(i>=0) {
+			while(i>=1) {
 			System.out.print(i*num+" ");
 			i--;
 			//System.out.println("\n");
@@ -23,7 +23,7 @@ public class ReverseTableUsingWhile {
 			do {
 				System.out.print(i*num+" ");
 				i--;
-			}while(i>=0);
+			}while(i>=1);
 	}
 
 }
